@@ -45,7 +45,7 @@
  .container .box .title h1 {
 	 font-family: 'Pacifico', cursive;
 	 color: #fff;
-	 font-size: 60px;
+	 font-size: 70px;
 	 font-weight: 400;
 	 -webkit-animation: mainFadeIn 2s forwards;
 	 -o-animation: mainFadeIn 2s forwards;
@@ -130,6 +130,8 @@
 	 letter-spacing: 3px;
 }
 .box img{
+	animation: secFadeIn 2s forwards;
+	animation-delay: 5s;
 	width: 100%;
 	margin-top: 30px;
 }
